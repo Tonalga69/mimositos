@@ -1,0 +1,114 @@
+
+
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #333;
+}
+
+.form-container {
+    width: 60vw;
+    background-color: #ffb703;
+    height: 100vh;
+    clip-path: polygon(100% 0, 0 0, 0 100%, 90% 100%);
+    position: relative;
+}
+
+.login-icon{
+    font-size: 60px;
+    color: #219ebc;
+
+}
+.login-image{
+   height: 100vh;
+   width: 50vw;
+   object-fit: cover;
+   position: absolute;
+   top: 0; 
+   right: 0; 
+   z-index: -1;
+   transition: 0.5s ease;
+   
+}
+
+
+
+.register{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+}
+#no_acount{
+    font-weight: 500;
+}
+#a_no_acount{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #4fa2e2;
+    text-decoration: none;
+
+    
+}
+.form-container form {
+    position: relative;
+    background-color: #ffffff;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #219ebc;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #023047;
+    transition: ease-in 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+    .form-container {
+        width: 100%;
+        clip-path: none;
+    }
+    .login-image{
+        display: none;
+    }
+    
+}
+

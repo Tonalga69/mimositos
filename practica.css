@@ -1,0 +1,75 @@
+#section1{
+    border: 10px;
+    background-color: black;
+    text-decoration: line-through;
+    font-size: xx-small;
+    font-weight: bolder; 
+    border-color: aqua; 
+    padding: 1px; 
+}
+#section2{
+    border: 5px;
+    background-color:brown;
+    text-decoration: line-through;
+    font-size: xx-large;
+    font-weight: bolder; 
+    border-color: aqua; 
+    padding: 30px; 
+}
+#section3{
+    border: 1px;
+    background-color: aliceblue;
+    text-decoration: line-through;
+    font-size: large;
+    font-weight: bolder; 
+    border-color: aqua; 
+    padding: 30px; 
+}
+#section4{
+    border: 1px;
+    background-color: blueviolet;
+    text-decoration: underline;
+    font-size: xx-small;
+    font-weight: bolder; 
+    border-color: blueviolet; 
+    padding: 300px; 
+}
+#section5{
+    border: 9px;
+    background-color: red;
+    text-decoration: line-through;
+    font-size: xx-small;
+    font-weight: bolder; 
+    border-color: blue; 
+    padding: 300px; 
+}
+
+.parrafo{
+    text-align: end;
+    text-decoration: dotted;
+    text-wrap: pretty;
+    background-color: blue;
+    font-size: medium;
+    color: blueviolet;
+
+}
+
+
+.parrafo2{
+    text-align: center;
+    text-decoration: wavy;
+    text-wrap: pretty;
+    background-color: yellow;
+    font-size: large;
+    color: blueviolet;
+
+}
+
+h1{
+    text-decoration: solid;
+    font-size: large;
+    font-weight: lighter;
+    color: cadetblue;
+    top: auto;
+}
+

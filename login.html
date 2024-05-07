@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <title>Iniciar Sesión</title>
+  </head>
+  <body>
+    <div style="display:flex;">
+      <div class="form-container">
+        <form action="login.php" method="post">
+          <div class="login-icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <h2>Iniciar Sesión</h2>
+          <label for="username">Nombre de Usuario:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required />
+
+          <input type="submit" value="Iniciar Sesión" />
+          <div class="register">
+            <p id="no_acount">No tienes una cuenta</p>
+            <a id="a_no_acount" href="registro.html">Registrate aquí</a>
+          </div>
+        </form>
+      </div>
+      <div>
+        <div class="login-image">
+            <img src="images/peluches.jpeg" alt="login" style="object-fit: cover; height: inherit; width: inherit;"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
